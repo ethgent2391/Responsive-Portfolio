@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px){
+@media only screen and (max-width: 900px){
 
     body {
         background-image: url("../images/swirl_pattern.png"); 
@@ -8,7 +8,7 @@
     }
     #box{
         width:100%;
-        height:auto;
+        height:85px;
         background-color: #ffffff;
         position: relative;
         top:0px;
@@ -41,30 +41,14 @@
         left:125px;
         border-bottom: 1px solid #666666;
     }
-    #ethanrocks{
-        height: 250px;
-        float: left;
-        position: relative;
-        top: -75px;
-    
-    }
-    #pagetitle{
-        font-size:24px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        position: relative;
-        Top:-100px;
-        color: rgb(74,170,165);
-        border-bottom:2px solid #666666;
-        height: 40px;
-        width: 100%;
-    }
     .links{
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px;
         position:relative;
-        float: right;
+        float: left;
         font-size: 18px;
-        top:-40px;
+        left:125px;
+        
         
     }
     #about{
@@ -72,6 +56,7 @@
         float:right;
         border-right:1px solid #666666;
         padding-right: 10px;
+        
     }
     #portfolio{
         position: relative;
@@ -86,6 +71,25 @@
         border-right:1px solid #666666;
         padding-left:10px;
         padding-right:10px;
+    }
+    #ethanrocks{
+        height: 250px;
+        float: left;
+        position: relative;
+        top: -75px;
+    
+    }
+    #pagetitle{
+        font-size:24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        Top:-70px;
+        color: rgb(74,170,165);
+        border-bottom:2px solid #666666;
+        height: 40px;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     #paragraph1{
         font-family: Arial, Helvetica, sans-serif;

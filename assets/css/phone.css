@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px){
+@media only screen and (max-width: 600px){
 
     body {
         background-image: url("../images/swirl_pattern.png"); 
@@ -8,7 +8,7 @@
     }
     #box{
         width:100%;
-        height:auto;
+        height:85px;
         background-color: #ffffff;
         position: relative;
         top:0px;
@@ -52,7 +52,7 @@
         font-size:24px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        Top:-100px;
+        Top:-60px;
         color: rgb(74,170,165);
         border-bottom:2px solid #666666;
         height: 40px;
@@ -62,10 +62,9 @@
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px;
         position:relative;
-        float: right;
+        float: left;
         font-size: 18px;
-        top:-40px;
-        
+        left:100px;
     }
     #about{
         position: relative;
